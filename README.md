@@ -8,3 +8,8 @@
 # To run application on the server it will use command:
 
 ## npm run start
+
+
+# To run tests use command 
+
+## npm run test
