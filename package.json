@@ -4,8 +4,22 @@
   "description": "Interview task",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:dev": "nodemon ./src/index.js",
+    "start": "node ./src/index.js",
+    "test": "jest"
   },
   "author": "Damian Gasiorowski",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.12.2",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.4",
+    "@babel/preset-env": "^7.28.3",
+    "babel-jest": "^30.2.0",
+    "jest": "^30.2.0",
+    "nodemon": "^3.1.10"
+  },
+  "type": "module"
 }
